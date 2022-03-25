@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: center;
+
+    padding: 15px;
+}
+
+h1 {
+    font-weight: 500;
+		line-height: 1;
+    border-bottom: 1px dashed;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.section__content {
+    display: grid;
+    gap: 26px;
+
+    border: 1px dashed;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.section__content--col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section__content-inner {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
